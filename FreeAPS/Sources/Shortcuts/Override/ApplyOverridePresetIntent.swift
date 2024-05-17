@@ -3,7 +3,7 @@ import Foundation
 
 @available(iOS 16.0, *) struct ApplyOverridePresetIntent: AppIntent {
     // Title of the action in the Shortcuts app
-    static var title = LocalizedStringResource("Activate an Override Preset", table: "ShortcutsDetail")
+    static var title = LocalizedStringResource("Activate Override Preset", table: "ShortcutsDetail")
 
     // Description of the action in the Shortcuts app
     static var description = IntentDescription(.init("Activate a an Override Preset", table: "ShortcutsDetail"))
