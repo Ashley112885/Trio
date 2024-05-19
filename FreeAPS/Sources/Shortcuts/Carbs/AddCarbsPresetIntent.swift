@@ -8,7 +8,7 @@ import Swinject
     static var title = LocalizedStringResource("Add Carbs", table: "ShortcutsDetail")
 
     // Description of the action in the Shortcuts app
-    static var description = IntentDescription(.init("Allow to add carbs", table: "ShortcutsDetail"))
+    static var description = IntentDescription(.init("Adding Carbs", table: "ShortcutsDetail"))
 
     private var carbRequest: CarbPresetIntentRequest
 
@@ -29,7 +29,7 @@ import Swinject
     ) var carbQuantity: Double
 
     @Parameter(
-        title: LocalizedStringResource("Quantity fat", table: "ShortcutsDetail"),
+        title: LocalizedStringResource("Quantity Fat", table: "ShortcutsDetail"),
         description: LocalizedStringResource("Quantity of fat in g", table: "ShortcutsDetail"),
         default: 0.0,
         inclusiveRange: (0, 200)
@@ -48,7 +48,7 @@ import Swinject
     ) var dateAdded: Date
 
     @Parameter(
-        title: LocalizedStringResource("Confirm Before applying", table: "ShortcutsDetail"),
+        title: LocalizedStringResource("Confirm before applying", table: "ShortcutsDetail"),
         description: LocalizedStringResource("If toggled, you will need to confirm before applying", table: "ShortcutsDetail"),
         default: true
     ) var confirmBeforeApplying: Bool

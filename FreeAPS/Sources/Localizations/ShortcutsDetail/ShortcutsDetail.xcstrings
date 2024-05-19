@@ -6,7 +6,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : " %1$@ g Kohlenhydrate und %2$@ g Fette und %3$@ g Proteine bei %4$@ hinzugefügt"
+            "value" : " %1$@ g Kohlenhydrate, %2$@ g Fette und %3$@ g Proteine um %4$@ hinzugefügt"
           }
         },
         "en" : {
@@ -227,7 +227,7 @@
         }
       }
     },
-    "Activate an Override Preset" : {
+    "Activate Override Preset" : {
       "localizations" : {
         "fr" : {
           "stringUnit" : {
@@ -257,7 +257,11 @@
         }
       }
     },
+    "Adding Carbs" : {
+
+    },
     "Allow to add carbs" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -944,6 +948,9 @@
           }
         }
       }
+    },
+    "Confirm before applying" : {
+
     },
     "Confirm Before applying" : {
       "extractionState" : "manual",
@@ -2313,6 +2320,7 @@
       }
     },
     "Quantity fat" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2351,6 +2359,9 @@
           }
         }
       }
+    },
+    "Quantity Fat" : {
+
     },
     "Quantity of carbs in g" : {
       "localizations" : {
